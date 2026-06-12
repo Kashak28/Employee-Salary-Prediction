@@ -1,4 +1,4 @@
-**Employee Salary Classification**
+# Employee Salary Classification
 
 ## Project Overview
 
@@ -71,17 +71,23 @@ Accuracy: 79.22%
 
 The application predicts whether an employee's annual income is:
 
-- Greater than $50K
-- Less than or equal to $50K
+* Greater than $50K
+* Less than or equal to $50K
 
 The prediction is displayed along with the model confidence score.
 
+## Live Demo
+
+Streamlit Application:
+
+https://employee-salary-prediction-c3gnhc3gx3dtldcptwa4c7.streamlit.app/
+
 ## Future Improvements
 
-- Integrate FastAPI to expose the model as a REST API.
-- Deploy the backend API using Render or Railway.
-- Add user authentication and login functionality.
-- Support bulk predictions using CSV upload and downloadable reports.
-- Implement model monitoring and logging.
-- Add data visualization dashboards for salary insights.
-- Experiment with advanced ensemble models and hyperparameter tuning.
+* Integrate FastAPI to expose the model as a REST API.
+* Deploy the backend API using Render or Railway.
+* Add user authentication and login functionality.
+* Support bulk predictions using CSV upload and downloadable reports.
+* Implement model monitoring and logging.
+* Add data visualization dashboards for salary insights.
+* Experiment with advanced ensemble models and hyperparameter tuning.
